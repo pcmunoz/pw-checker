@@ -1,5 +1,6 @@
 {
   "name": "pw-checker",
+  "homepage": "https://pcmunoz.github.io/pw-checker/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

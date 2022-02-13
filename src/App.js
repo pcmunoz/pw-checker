@@ -1,29 +1,17 @@
 import React from 'react'
+import axios from 'axios'
+import debounce from 'lodash/debounce'
 import Container from '@mui/material/Container'
 import TextField from '@mui/material/TextField'
 import InputLabel from '@mui/material/InputLabel'
 import Typography  from '@mui/material/Typography'
 import InputAdornment  from '@mui/material/InputAdornment'
-import axios from 'axios'
-import debounce from 'lodash/debounce'
 import Box from '@mui/material/Box'
-import Link from '@mui/material/Link'
 import CircularProgress from '@mui/material/CircularProgress'
 import ScoreBar from './ScoreBar'
 import ScoreText from './ScoreText'
-
-const Copyright = (props) => {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center" {...props}>
-      {'Copyright © '}
-      <Link color="inherit" href="https://github.com/pcmunoz">
-        Patrick Ceasar Munoz
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+import Copyright from './Copyright'
+import { PW_CHECK_URL } from './constant'
 
 const App = () => {
   const [showPassword, setShowPassword] = React.useState(false)
@@ -40,7 +28,7 @@ const App = () => {
       setCheckLoading(false)
     }
     else {
-      axios.post('https://o9etf82346.execute-api.us-east-1.amazonaws.com/staging/password/strength', {
+      axios.post(PW_CHECK_URL, {
         password: value
       })
       .then((response) => {
@@ -56,7 +44,6 @@ const App = () => {
   }
 
   const debouncedInput = React.useMemo(() => debounce((value) => check(value), 500), [])
-
   const handleTogglePasswordVisibility = () => setShowPassword(prev => !prev)
   const handlePasswordInput = (event) => {
     setPwValue(event.target.value)

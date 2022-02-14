@@ -11,7 +11,7 @@ import CircularProgress from '@mui/material/CircularProgress'
 import ScoreBar from './ScoreBar'
 import ScoreText from './ScoreText'
 import Copyright from './Copyright'
-import { PW_CHECK_URL } from './constant'
+import { DEBOUNCE_TIME, PW_CHECK_URL } from './constant'
 
 const App = () => {
   const [showPassword, setShowPassword] = React.useState(false)
@@ -43,7 +43,7 @@ const App = () => {
     }
   }
 
-  const debouncedInput = React.useMemo(() => debounce((value) => check(value), 500), [])
+  const debouncedInput = React.useMemo(() => debounce((value) => check(value), DEBOUNCE_TIME), [])
   const handleTogglePasswordVisibility = () => setShowPassword(prev => !prev)
   const handlePasswordInput = (event) => {
     setPwValue(event.target.value)

@@ -4,7 +4,7 @@ module.exports = {
   name: 'remote',
   filename: 'remoteEntry.js',
   exposes: {
-    './index': './src/index.js',
+    './PasswordChecker': './src/index.js',
   },
   remotes: {},
   shared: {

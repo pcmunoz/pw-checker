@@ -1,12 +1,36 @@
 {
   "files": {
-    "main.js": "/pw-checker/static/js/main.2e5428af.js",
-    "static/js/787.8f508045.chunk.js": "/pw-checker/static/js/787.8f508045.chunk.js",
+    "main.js": "/pw-checker/static/js/main.ae869d6a.js",
+    "remote.js": "/pw-checker/remoteEntry.js",
+    "static/js/src_bootstrap_js-webpack_sharing_consume_default_emotion_styled_emotion_styled-webpack_sharin-a10dd7.515fb2c7.chunk.js": "/pw-checker/static/js/src_bootstrap_js-webpack_sharing_consume_default_emotion_styled_emotion_styled-webpack_sharin-a10dd7.515fb2c7.chunk.js",
+    "static/js/node_modules_babel_runtime_helpers_esm_extends_js.a7e1ba69.chunk.js": "/pw-checker/static/js/node_modules_babel_runtime_helpers_esm_extends_js.a7e1ba69.chunk.js",
+    "static/js/node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4620.025ff455.chunk.js": "/pw-checker/static/js/node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4620.025ff455.chunk.js",
+    "static/js/node_modules_babel_runtime_helpers_esm_classCallCheck_js-node_modules_babel_runtime_helpers_e-50b023.907e6125.chunk.js": "/pw-checker/static/js/node_modules_babel_runtime_helpers_esm_classCallCheck_js-node_modules_babel_runtime_helpers_e-50b023.907e6125.chunk.js",
+    "static/js/node_modules_react_index_js.e8104242.chunk.js": "/pw-checker/static/js/node_modules_react_index_js.e8104242.chunk.js",
+    "static/js/node_modules_web-vitals_dist_web-vitals_js.712f1334.chunk.js": "/pw-checker/static/js/node_modules_web-vitals_dist_web-vitals_js.712f1334.chunk.js",
+    "static/js/src_index_js.a48f0fa2.chunk.js": "/pw-checker/static/js/src_index_js.a48f0fa2.chunk.js",
+    "static/js/vendors-node_modules_react-dom_index_js.58dc3fbb.chunk.js": "/pw-checker/static/js/vendors-node_modules_react-dom_index_js.58dc3fbb.chunk.js",
+    "static/js/vendors-node_modules_axios_index_js.cb281d6f.chunk.js": "/pw-checker/static/js/vendors-node_modules_axios_index_js.cb281d6f.chunk.js",
+    "static/js/node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4621.26215a90.chunk.js": "/pw-checker/static/js/node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4621.26215a90.chunk.js",
+    "static/js/vendors-node_modules_emotion_react_dist_emotion-react_browser_esm_js.ef48d618.chunk.js": "/pw-checker/static/js/vendors-node_modules_emotion_react_dist_emotion-react_browser_esm_js.ef48d618.chunk.js",
+    "static/js/vendors-node_modules_mui_material_Box_Box_js-node_modules_mui_material_CircularProgress_Circu-fe3790.41d4b7db.chunk.js": "/pw-checker/static/js/vendors-node_modules_mui_material_Box_Box_js-node_modules_mui_material_CircularProgress_Circu-fe3790.41d4b7db.chunk.js",
     "index.html": "/pw-checker/index.html",
-    "main.2e5428af.js.map": "/pw-checker/static/js/main.2e5428af.js.map",
-    "787.8f508045.chunk.js.map": "/pw-checker/static/js/787.8f508045.chunk.js.map"
+    "main.ae869d6a.js.map": "/pw-checker/static/js/main.ae869d6a.js.map",
+    "remoteEntry.js.map": "/pw-checker/remoteEntry.js.map",
+    "src_bootstrap_js-webpack_sharing_consume_default_emotion_styled_emotion_styled-webpack_sharin-a10dd7.515fb2c7.chunk.js.map": "/pw-checker/static/js/src_bootstrap_js-webpack_sharing_consume_default_emotion_styled_emotion_styled-webpack_sharin-a10dd7.515fb2c7.chunk.js.map",
+    "node_modules_babel_runtime_helpers_esm_extends_js.a7e1ba69.chunk.js.map": "/pw-checker/static/js/node_modules_babel_runtime_helpers_esm_extends_js.a7e1ba69.chunk.js.map",
+    "node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4620.025ff455.chunk.js.map": "/pw-checker/static/js/node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4620.025ff455.chunk.js.map",
+    "node_modules_babel_runtime_helpers_esm_classCallCheck_js-node_modules_babel_runtime_helpers_e-50b023.907e6125.chunk.js.map": "/pw-checker/static/js/node_modules_babel_runtime_helpers_esm_classCallCheck_js-node_modules_babel_runtime_helpers_e-50b023.907e6125.chunk.js.map",
+    "node_modules_react_index_js.e8104242.chunk.js.map": "/pw-checker/static/js/node_modules_react_index_js.e8104242.chunk.js.map",
+    "node_modules_web-vitals_dist_web-vitals_js.712f1334.chunk.js.map": "/pw-checker/static/js/node_modules_web-vitals_dist_web-vitals_js.712f1334.chunk.js.map",
+    "src_index_js.a48f0fa2.chunk.js.map": "/pw-checker/static/js/src_index_js.a48f0fa2.chunk.js.map",
+    "vendors-node_modules_react-dom_index_js.58dc3fbb.chunk.js.map": "/pw-checker/static/js/vendors-node_modules_react-dom_index_js.58dc3fbb.chunk.js.map",
+    "vendors-node_modules_axios_index_js.cb281d6f.chunk.js.map": "/pw-checker/static/js/vendors-node_modules_axios_index_js.cb281d6f.chunk.js.map",
+    "node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4621.26215a90.chunk.js.map": "/pw-checker/static/js/node_modules_emotion_styled_dist_emotion-styled_browser_esm_js-_b4621.26215a90.chunk.js.map",
+    "vendors-node_modules_emotion_react_dist_emotion-react_browser_esm_js.ef48d618.chunk.js.map": "/pw-checker/static/js/vendors-node_modules_emotion_react_dist_emotion-react_browser_esm_js.ef48d618.chunk.js.map",
+    "vendors-node_modules_mui_material_Box_Box_js-node_modules_mui_material_CircularProgress_Circu-fe3790.41d4b7db.chunk.js.map": "/pw-checker/static/js/vendors-node_modules_mui_material_Box_Box_js-node_modules_mui_material_CircularProgress_Circu-fe3790.41d4b7db.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.2e5428af.js"
+    "static/js/main.ae869d6a.js"
   ]
 }

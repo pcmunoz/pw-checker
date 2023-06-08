@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/pw-checker/static/js/main.3fb037fe.js",
+    "main.js": "/pw-checker/static/js/main.2e5428af.js",
     "static/js/787.8f508045.chunk.js": "/pw-checker/static/js/787.8f508045.chunk.js",
     "index.html": "/pw-checker/index.html",
-    "main.3fb037fe.js.map": "/pw-checker/static/js/main.3fb037fe.js.map",
+    "main.2e5428af.js.map": "/pw-checker/static/js/main.2e5428af.js.map",
     "787.8f508045.chunk.js.map": "/pw-checker/static/js/787.8f508045.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.3fb037fe.js"
+    "static/js/main.2e5428af.js"
   ]
 }

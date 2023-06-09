@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/305.477f39ba.chunk.js","mappings":"wJAAA,uEAEO,IAAMA,EAAQ,8B","sources":["index.js"],"sourcesContent":["import('./bootstrap');\n\nexport const dummy = 'to fix isolatedModules issue';"],"names":["dummy"],"sourceRoot":""}

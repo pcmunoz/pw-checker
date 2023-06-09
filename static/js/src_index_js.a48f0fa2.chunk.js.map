@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/src_index_js.a48f0fa2.chunk.js","mappings":"mKAAA,kXAEO,IAAMA,EAAQ,8B","sources":["index.js"],"sourcesContent":["import('./bootstrap');\n\nexport const dummy = 'to fix isolatedModules issue';"],"names":["dummy"],"sourceRoot":""}
